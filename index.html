@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>كريب التنين | كريب لحوم وبانيه وسندوتشات</title>
+  <meta name="description" content="كريب التنين يقدم أفضل كريب لحوم وكبدة وسندوتشات برجر. اطلب الآن بسهولة عبر الهاتف أو واتساب.">
+  <meta name="theme-color" content="#dc2626">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Sticky Navigation (top fixed) -->
+  <header class="navbar">
+    <div class="nav-container">
+      <div class="nav-right">
+        <span class="restaurant-name">كريب التنين</span>
+      </div>
+      <div class="nav-left">
+        <a href="#hero" class="nav-link">الرئيسية</a>
+        <a href="#menu" class="nav-link">المنيو</a>
+        <a href="#offers" class="nav-link">العروض</a>
+        <a href="#contact" class="nav-link">تواصل</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section (Right text + Left circular image) -->
+    <section id="hero" class="hero">
+      <div class="hero-grid">
+        <!-- Right side: text + buttons -->
+        <div class="hero-text">
+          <h1 class="hero-title">كريب التنين</h1>
+          <p class="hero-tagline">أحلى كريب لحوم وبانيه في هواره 🔥</p>
+          <div class="hero-buttons">
+            <a href="tel:201012054613" class="btn btn-call" id="callHeroBtn">
+              📞 اتصل الآن
+            </a>
+            <a href="https://wa.me/201012054613" class="btn btn-whatsapp" id="whatsappHeroBtn" target="_blank" rel="noopener noreferrer">
+              💬 اطلب واتساب
+            </a>
+          </div>
+        </div>
+        <!-- Left side: circular image (owner photo) -->
+        <div class="hero-image">
+          <div class="circle-img">
+            <!-- USER: replace only the image link inside src -->
+            <img src="Screenshot 2026-05-04 091028.png" alt="صاحب محل كريب التنين">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu Section (Meat only, no sweets) -->
+    <section id="menu" class="menu">
+      <div class="container">
+        <h2 class="section-title">🍖 قائمة اللحوم</h2>
+        
+        <div class="menu-grid" id="menuGrid">
+          <!-- Menu items will be injected via JS for easier update, but also static fallback -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Offers Section -->
+    
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title">📞 تواصل معنا</h2>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <p><strong>📞 الهاتف:</strong> 201012054613</p>
+            <p><strong>📍 العنوان:</strong>فرع هواره بجوار مغسله الحاج  حمد 🐉🐲🐲 الفيوم هواره المقطع -  بجوار قهوه خميس امام المدرسه الابتدائيه</p>
+            <p><strong>🕒 ساعات العمل:</strong> 24(ساعه)</p>
+          </div>
+          <div class="contact-buttons">
+            <a href="tel:201012054613" class="btn btn-call btn-large" id="callContactBtn">📞 اتصل الآن</a>
+            <a href="https://wa.me/201012054613" class="btn btn-whatsapp btn-large" id="whatsappContactBtn" target="_blank">💬 واتساب</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Simple Analytics (localStorage) -->
+    <div class="stats-footer">
+      <div class="stats-container">
+        <span>👥 الزوار: <span id="statVisitors">0</span></span>
+        <span>📞 المكالمات: <span id="statCalls">0</span></span>
+        <span>💬 واتساب: <span id="statWhatsapp">0</span></span>
+        <span>🛒 الطلبات: <span id="statOrders">0</span></span>
+      </div>
+    </div>
+  </main>
+
+  <!-- Sticky Bottom Bar (Mobile UX) -->
+  <div class="bottom-bar">
+    <a href="tel:201012054613" class="bottom-btn" id="bottomCallBtn">
+      📞 اتصال
+    </a>
+    <a href="https://wa.me/201012054613" class="bottom-btn" id="bottomWhatsappBtn" target="_blank">
+      💬 واتساب
+    </a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
