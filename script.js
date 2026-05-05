@@ -17,27 +17,27 @@ const STORAGE = {
 /* ====== MENU DATA ====== */
 const menu = [
   // ركن الكريب (سافوري)
-  { name: "كريب زنجر", desc: "زنجر مقرمش مع صوص خاص", price: "60 ج", category: "savory", msg: "طلب كريب زنجر" },
-  { name: "كريب بانيه فريش", desc: "بانيه طازة مع خضار", price: "60 ج", category: "savory", msg: "طلب كريب بانيه فريش" },
-  { name: "كريب بانيه كرانش", desc: "بانيه كرانش مقرمش", price: "25 ج", category: "savory", msg: "طلب كريب بانيه كرانش" },
+  { name: "كريب زنجر", desc: "زنجر مقرمش مع صوص خاص", price: "70 ج", category: "savory", msg: "طلب كريب زنجر" },
+  { name: "كريب بانيه فريش", desc: "بانيه طازة مع خضار", price: "65 ج", category: "savory", msg: "طلب كريب بانيه فريش" },
+  { name: "كريب بانيه كرانش", desc: "بانيه كرانش مقرمش", price: "40 ج", category: "savory", msg: "طلب كريب بانيه كرانش" },
   { name: "كريب برجر", desc: "برجر لحم مع جبن", price: "35 ج", category: "savory", msg: "طلب كريب برجر" },
-  { name: "كريب كفتة", desc: "كفتة مشوية على الفحم", price: "25 ج", category: "savory", msg: "طلب كريب كفتة" },
+  { name: "كريب كفتة", desc: "كفتة مشوية على الفحم", price: "50 ج", category: "savory", msg: "طلب كريب كفتة" },
   { name: "كريب كبدة", desc: "كبدة بلدي مع بصل", price: "50 ج", category: "savory", msg: "طلب كريب كبدة" },
-  { name: "كريب شاورما", desc: "شاورما لحمة مع صوص ثوم", price: "80 ج", category: "savory", msg: "طلب كريب شاورما" },
+  { name: "كريب شاورما", desc: "شاورما لحمة مع صوص ثوم", price: "70 ج", category: "savory", msg: "طلب كريب شاورما" },
   // ركن الكريب الحلو
   { name: "كريب نوتيلا", desc: "نوتيلا مع موز ومكسرات", price: "35 ج", category: "sweet", msg: "طلب كريب نوتيلا" },
   { name: "كريب فاكهة", desc: "فواكه موسمية مع عسل", price: "35 ج", category: "sweet", msg: "طلب كريب فاكهة" },
   { name: "كريب مكس", desc: "نوتيلا + فواكه + مكسرات", price: "50 ج", category: "sweet", msg: "طلب كريب مكس" },
   // ركن الساندوتشات
   { name: "ساندوتش كبدة", desc: "كبدة بلدي على الصاج", price: "10 ج", category: "sandwich", msg: "طلب ساندوتش كبدة" },
-  { name: "ساندوتش كفتة", desc: "كفتة مشوية", price: "10 ج", category: "sandwich", msg: "طلب ساندوتش كفتة" },
   { name: "ساندوتش كبدة وقوانص", desc: "كبدة وقوانص بالبصل", price: "10 ج", category: "sandwich", msg: "طلب ساندوتش كبدة وقوانص" },
-  { name: "ساندوتش سجق شرقي", desc: "سجق حار مع مخلل", price: "10 ج", category: "sandwich", msg: "طلب ساندوتش سجق شرقي" },
-  { name: "ساندوتش حواوشي", desc: "لحم مفروم مع بصل", price: "10 ج", category: "sandwich", msg: "طلب ساندوتش حواوشي" },
-  { name: "ساندوتش برجر", desc: "برجر لحم طازة", price: "10 ج", category: "sandwich", msg: "طلب ساندوتش برجر" },
+  { name: "ساندوتش حواوشي", desc: "لحم مفروم مع بصل", price: "15 ج", category: "sandwich", msg: "طلب ساندوتش حواوشي" },
+  { name: "ساندوتش برجر", desc: "برجر لحم طازة", price: "25 ويوجد ب15ج ج", category: "sandwich", msg: "طلب ساندوتش برجر" },
   { name: "برجر جامبو", desc: "برجر مزدوج مع جبن", price: "20 ج", category: "sandwich", msg: "طلب برجر جامبو" },
-  { name: "بانيه كرانش", desc: "بانيه مقرمش مع صوص", price: "15 ج", category: "sandwich", msg: "طلب بانيه كرانش" },
-  { name: "ساندوتش زنجر", desc: "زنجر حار مع كولسلو", price: "30 ج", category: "sandwich", msg: "طلب ساندوتش زنجر" }
+  { name: "بانيه كرانش", desc: "بانيه مقرمش مع صوص", price: "20 ج", category: "sandwich", msg: "طلب بانيه كرانش" },
+  { name: "ساندوتش زنجر", desc: "زنجر حار مع كولسلو", price: "35 ج", category: "sandwich", msg: "طلب ساندوتش زنجر" },
+  { name: "ساندوتش بانيه", desc: "ساندوتش بانيه", price: "35 ج", category: "sandwich", msg: "طلب ساندوتش بانيه" }
+
 ];
 
 /* ====== HELPER FUNCTIONS ====== */
